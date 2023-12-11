@@ -515,7 +515,7 @@ The vast majority of loans had a risk score between 0.0 and 0.2. The mean risk s
 # Ethical Considerations
 
 * **Racial and Demographic Bias**: Excluding explicit demographic information doesn't eliminate the risk of encoding bias. Anomaly detection models can be trained on proxies of correlated features where racial of demographic bias is still perpetuate. 
-* **Ambiguity in Validation**: In unsupervised anomaly detection, the absence of labeled data identifying actual anomalies or fraud makes it challenging to validate the model's predictions accurately. We encourage analysis and decisions to be made based on differences of trends in features between suspected anomalies and suspected normal loans. This paired with significant domain knowledge of fraud detection for loans of this type will mitigate this ethical concern.
+* **Ambiguity in Validation**: In unsupervised anomaly detection, the absence of validation data and labeled data identifying actual anomalies or fraud makes it challenging to validate the model's predictions accurately. We encourage analysis and decisions to be made based on differences of trends in features between suspected anomalies and suspected normal loans. This paired with significant domain knowledge of fraud detection for loans of this type will mitigate this ethical concern.
 * **Transparency and Complexity**: Blended machine learning models can be highly complex. The incorporation of three algorithms makes interpretability difficult. To the best of our ability, we have provided as transparent and interpretable of a model card as possible.
 
 
